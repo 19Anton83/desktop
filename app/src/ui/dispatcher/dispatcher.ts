@@ -1375,9 +1375,8 @@ export class Dispatcher {
     return this.appStore.setStatsOptOut(optOut, userViewedPrompt)
   }
 
-  /** Moves the app to the /Applications folder on macOS. */
   public moveToApplicationsFolder() {
-    return moveToApplicationsFolder()
+    moveToApplicationsFolder()
   }
 
   /**
